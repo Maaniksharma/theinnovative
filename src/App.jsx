@@ -21,7 +21,7 @@ const App = () => (
         <header>
           <Navbar />
         </header>
-        <Mainpage />
+        <MainPage />
         <Footer />
       </QueryClientProvider>
     </BrowserRouter>
