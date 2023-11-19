@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.jumboimage{
+    height:106vh;
+}
+.jumboCardbg{
+    background-color: rgb(55, 173, 228);
+}
+.tt{
+    font-family:cursive;
+}
+
+/* Keyframes for the color transition animation */
+@keyframes colorChange {
+    0% {
+      background-color: rgb(56 189 248);
+      color: #fff;
+    }
+    50% {
+      background-color: rgb(2 132 199);
+      color: rgb(186 230 253);
+    }
+    100% {
+      background-color: rgb(56 189 248);
+      color: #fff;
+    }
+  }
+  .color-transition {
+    animation: colorChange 3s infinite; /* Duration set to 10 seconds for a full cycle, and infinite loop */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  .aboutimage{
+    height:40vh ;
+    width:100% ;
+    object-fit: cover;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  @media (min-width: 768px) {
+    .aboutimage{
+      height: 63vh;
+      width:83vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  
+  
+
+@media (max-width: 480px) {
+    .jumboimage{
+        height:55vh;
+    }
+}
+@media(max-width: 400px){
+    .jumboimage{
+        height:70vh;
+    }
+}
