@@ -41,7 +41,7 @@ const Footer = () => (
           <h5 className="uppercase mb-2 md:mt-4 font-bold">Location</h5>
           <p className="text-gray-200">Yamunanagar, Haryana</p>
           <div className="w-full md:w-1/4 text-center md:text-left">
-            <h5 className="uppercase mb-2 md:mt-4 font-bold">Contact</h5>
+            <h5 className="uppercase mb-2 mt-4 font-bold">Contact</h5>
             <a href="tel:+919017767472">
               <p className="text-gray-200 hover:underline">
                 Phone: +919017767472
