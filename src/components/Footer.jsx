@@ -63,7 +63,10 @@ const Footer = () => (
               </a>
             </li>
             <li className="mt-2">
-              <a href="#" className="hover:underline text-gray-200">
+              <a
+                href="https://www.instagram.com/the_innovative2023?igsh=aXR4b3NuZ204azZs"
+                className="hover:underline text-gray-200"
+              >
                 Instagram
               </a>
             </li>
